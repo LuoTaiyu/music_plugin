@@ -8,6 +8,7 @@
 > 版权：Copyright © 2026 LuoTaiyu，见 [COPYRIGHT.md](COPYRIGHT.md)  
 > 许可：AGPL-3.0（JUCE 与 VST3 SDK 双许可，见 [DEPENDENCIES_AND_LICENSES.md](DEPENDENCIES_AND_LICENSES.md)）  
 > 用户指南：[USER_GUIDE.md](USER_GUIDE.md)  
+> 发布包：[v0.1.0 Windows x64](https://github.com/LuoTaiyu/music_plugin/releases/tag/v0.1.0)  
 > 默认平台：Windows x64（本机实际构建/测试）；macOS AU 需在 macOS 上构建，当前未验证。
 
 ## 1. 现在真的能做什么
