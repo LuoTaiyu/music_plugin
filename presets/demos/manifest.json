@@ -1,0 +1,40 @@
+{
+  "format": "ExpressiveComposerDemoManifest",
+  "version": 1,
+  "seed": 20261108,
+  "demos": [
+    {
+      "id": "chamber",
+      "title": "Letters in a Quiet Room",
+      "intent": "克制、怀念的室内器乐；重复的窄音域动机、内声部移动、未完全解决的结尾",
+      "key": "F minor",
+      "meter": "4/4",
+      "bpm": 68,
+      "bars": 48,
+      "audioSeconds": 172.412,
+      "files": ["project.json", "chamber.mid", "chamber.wav", "report.txt"]
+    },
+    {
+      "id": "cinematic",
+      "title": "Pressure Line",
+      "intent": "紧张逐步累积的电影配乐；5/4 的 3+2 重音、低音持续、单次高点后撤层",
+      "key": "D phrygian",
+      "meter": "5/4",
+      "bpm": 92,
+      "bars": 44,
+      "audioSeconds": 146.478,
+      "files": ["project.json", "cinematic.mid", "cinematic.wav", "report.txt"]
+    },
+    {
+      "id": "kinetic",
+      "title": "Kinetic Bloom",
+      "intent": "节奏驱动的电子律动；四拍底鼓、切分低音、Break 减法、Outro 撤低频",
+      "key": "E dorian",
+      "meter": "4/4",
+      "bpm": 122,
+      "bars": 36,
+      "audioSeconds": 73.820,
+      "files": ["project.json", "kinetic.mid", "kinetic.wav", "report.txt"]
+    }
+  ]
+}

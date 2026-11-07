@@ -1,0 +1,57 @@
+Expressive Composer demo report
+id=chamber
+title=Letters in a Quiet Room
+seed=20261108
+bars=48
+timeSignature=4/4
+key=F minor
+bpm=68
+notes=741
+chords=36
+phrases=24
+motifUses=67
+composeMs=7.502
+midiBytes=236766
+audioSeconds=172.412
+renderMs=61843.852
+realtimeFactor=2.788x
+peak=0.555853
+rms=0.080725
+clippedSamples={0}
+allFinite={true}
+maxVoices={25}
+
+[decisions]
+- section 'Prelude' uses 4 harmony cells, layers=7
+- section 'First Memory' uses 8 harmony cells, layers=7
+- section 'Inner Motion' uses 8 harmony cells, layers=39
+- section 'Distant Warmth' uses 4 harmony cells, layers=39
+- section 'Return' uses 8 harmony cells, layers=39
+- section 'Coda' uses 4 harmony cells, layers=7
+- phrase 0 (antecedent) uses motifs 3x, transform=original, unresolved=no
+- phrase 1 (consequent) uses motifs 3x, transform=change_ending, unresolved=no
+- phrase 2 (antecedent) uses motifs 3x, transform=transpose, unresolved=no
+- phrase 3 (consequent) uses motifs 3x, transform=original, unresolved=no
+- phrase 4 (antecedent) uses motifs 3x, transform=original, unresolved=no
+- phrase 5 (consequent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 6 (antecedent) uses motifs 3x, transform=change_ending, unresolved=no
+- phrase 7 (consequent) uses motifs 4x, transform=fragment, unresolved=no
+- phrase 8 (antecedent) uses motifs 3x, transform=original, unresolved=no
+- phrase 9 (consequent) uses motifs 3x, transform=ornament, unresolved=no
+- phrase 10 (antecedent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 11 (consequent) uses motifs 3x, transform=transpose, unresolved=no
+- phrase 12 (antecedent) uses motifs 3x, transform=original, unresolved=no
+- phrase 13 (consequent) uses motifs 3x, transform=original, unresolved=no
+- phrase 14 (antecedent) uses motifs 3x, transform=invert, unresolved=no
+- phrase 15 (consequent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 16 (antecedent) uses motifs 3x, transform=original, unresolved=no
+- phrase 17 (consequent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 18 (antecedent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 19 (consequent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 20 (antecedent) uses motifs 3x, transform=original, unresolved=yes
+- phrase 21 (consequent) uses motifs 3x, transform=transpose, unresolved=yes
+- phrase 22 (antecedent) uses motifs 3x, transform=ornament, unresolved=yes
+- phrase 23 (consequent) uses motifs 3x, transform=ornament, unresolved=yes
+
+[warnings]
+- none

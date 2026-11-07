@@ -1,0 +1,30 @@
+# Build trees
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Local diagnostics and test scratch
+test-output/
+*.dmp
+*.log
+plugin_start.log
+ec_*_request
+ec_snapshot_done
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Unrelated parallel work in this workspace
+songs/
+
+# Optional large dependency cache / unused CLAP checkout
+third_party/downloads/
+third_party/clap-juce-extensions/
+
+# Keep the pluginval evidence log even though *.log is normally local
+!dist/pluginval.log

@@ -1,0 +1,49 @@
+Expressive Composer demo report
+id=kinetic
+title=Kinetic Bloom
+seed=20261108
+bars=36
+timeSignature=4/4
+key=E dorian
+bpm=122
+notes=1236
+chords=72
+phrases=16
+motifUses=80
+composeMs=17.355
+midiBytes=377427
+audioSeconds=73.820
+renderMs=44354.128
+realtimeFactor=1.664x
+peak=0.961303
+rms=0.102962
+clippedSamples={0}
+allFinite={true}
+maxVoices={96}
+
+[decisions]
+- section 'Intro' uses 8 harmony cells, layers=18
+- section 'Groove A' uses 8 harmony cells, layers=31
+- section 'Break' uses 4 harmony cells, layers=11
+- section 'Groove B' uses 8 harmony cells, layers=31
+- section 'Peak' uses 8 harmony cells, layers=31
+- section 'Outro' uses 4 harmony cells, layers=9
+- phrase 0 (antecedent) uses motifs 5x, transform=original, unresolved=no
+- phrase 1 (consequent) uses motifs 5x, transform=retrograde, unresolved=no
+- phrase 2 (antecedent) uses motifs 5x, transform=transpose, unresolved=no
+- phrase 3 (consequent) uses motifs 5x, transform=original, unresolved=no
+- phrase 4 (antecedent) uses motifs 5x, transform=original, unresolved=no
+- phrase 5 (consequent) uses motifs 5x, transform=original, unresolved=no
+- phrase 6 (antecedent) uses motifs 5x, transform=retrograde, unresolved=no
+- phrase 7 (consequent) uses motifs 5x, transform=change_ending, unresolved=no
+- phrase 8 (antecedent) uses motifs 5x, transform=original, unresolved=no
+- phrase 9 (consequent) uses motifs 5x, transform=fragment, unresolved=no
+- phrase 10 (antecedent) uses motifs 5x, transform=original, unresolved=no
+- phrase 11 (consequent) uses motifs 5x, transform=transpose, unresolved=no
+- phrase 12 (antecedent) uses motifs 5x, transform=original, unresolved=no
+- phrase 13 (consequent) uses motifs 5x, transform=original, unresolved=no
+- phrase 14 (antecedent) uses motifs 5x, transform=ornament, unresolved=yes
+- phrase 15 (consequent) uses motifs 5x, transform=original, unresolved=yes
+
+[warnings]
+- none

@@ -1,0 +1,33 @@
+name: core-tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  windows-core:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+      - name: Configure core
+        run: >
+          cmake -S . -B build-core -G Ninja
+          -DCMAKE_BUILD_TYPE=Release
+          -DEC_BUILD_PLUGIN=OFF
+          -DEC_BUILD_TESTS=ON
+          -DEC_BUILD_BENCH=ON
+      - name: Build core
+        run: cmake --build build-core --parallel
+      - name: Run tests
+        run: .\build-core\ec_tests.exe
+      - name: Generate one demo without audio
+        run: .\build-core\ec_cli.exe generate --demo chamber --seed 20261108 --no-wav --out ci-demo
+
+  # The JUCE plugin build is intentionally not run here:
+  # - JUCE is vendored in third_party/JUCE;
+  # - JUCE's juceaide resource generator fails on non-ASCII checkout paths,
+  #   and Windows runners can be sensitive to long paths.
+  # Build the plugin locally with scripts/build.ps1 and run pluginval.

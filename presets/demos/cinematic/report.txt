@@ -1,0 +1,48 @@
+Expressive Composer demo report
+id=cinematic
+title=Pressure Line
+seed=20261108
+bars=44
+timeSignature=5/4
+key=D phrygian
+bpm=92
+notes=750
+chords=42
+phrases=15
+motifUses=47
+composeMs=14.080
+midiBytes=233922
+audioSeconds=146.478
+renderMs=41257.202
+realtimeFactor=3.550x
+peak=0.645967
+rms=0.067438
+clippedSamples={0}
+allFinite={true}
+maxVoices={57}
+
+[decisions]
+- section 'Cold Open' uses 4 harmony cells, layers=6
+- section 'Pressure' uses 8 harmony cells, layers=22
+- section 'Accumulation' uses 10 harmony cells, layers=23
+- section 'Suspension' uses 4 harmony cells, layers=7
+- section 'Climax' uses 8 harmony cells, layers=31
+- section 'Aftermath' uses 8 harmony cells, layers=7
+- phrase 0 (antecedent) uses motifs 4x, transform=original, unresolved=no
+- phrase 1 (consequent) uses motifs 4x, transform=transpose, unresolved=no
+- phrase 2 (antecedent) uses motifs 2x, transform=augment, unresolved=no
+- phrase 3 (consequent) uses motifs 4x, transform=original, unresolved=no
+- phrase 4 (antecedent) uses motifs 4x, transform=original, unresolved=no
+- phrase 5 (consequent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 6 (antecedent) uses motifs 3x, transform=transpose, unresolved=no
+- phrase 7 (consequent) uses motifs 3x, transform=ornament, unresolved=no
+- phrase 8 (antecedent) uses motifs 3x, transform=original, unresolved=no
+- phrase 9 (consequent) uses motifs 5x, transform=fragment, unresolved=no
+- phrase 10 (antecedent) uses motifs 2x, transform=extend, unresolved=no
+- phrase 11 (consequent) uses motifs 2x, transform=augment, unresolved=yes
+- phrase 12 (antecedent) uses motifs 3x, transform=original, unresolved=yes
+- phrase 13 (consequent) uses motifs 3x, transform=original, unresolved=yes
+- phrase 14 (antecedent) uses motifs 3x, transform=invert, unresolved=yes
+
+[warnings]
+- none
